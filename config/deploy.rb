@@ -1,5 +1,5 @@
 # Change these
-server 'bahamallama.com', port: 30000, roles: [:web, :app, :db], primary: true
+server 'bahamallama.cc', port: 30000, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'ssh://git@github.com/bahamallama/ACartist.git'
 set :application,     'ACartist'
