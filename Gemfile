@@ -39,9 +39,6 @@ gem 'capistrano3-puma'
 gem 'capistrano-figaro-yml', '~> 1.0.2'
 gem 'capistrano-rails-collection'
 
-# for using textmate
-gem 'rmate'
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
