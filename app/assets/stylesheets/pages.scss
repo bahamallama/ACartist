@@ -1,6 +1,10 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.homepage {
+	background-color: black;
+}
+
 .cover {
 	z-index: 0;
 }
@@ -34,4 +38,10 @@
 	line-height: normal;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+a.bubblelink:link, a.bubblelink:visited, a.bubblelink:hover {
+	text-decoration: none;
+	color: black;
+	background: none;
 }

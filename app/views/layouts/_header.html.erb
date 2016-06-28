@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse visible-sm visible-xs">
+<nav class="navbar <%= @home_page ? 'navbar-inverse' : 'navbar-default'%> visible-sm visible-xs">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,14 +8,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">AC/Artist</a>
+      <%= link_to "AC/Artist", root_path, class: "navbar-brand"  %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><%= link_to "Gallery", galleries_path %></li>
       </ul>
   
     </div><!-- /.navbar-collapse -->
