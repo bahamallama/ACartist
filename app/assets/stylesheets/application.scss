@@ -16,5 +16,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.footerScript {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 16pt;
+}
 
+.footerLinks {
+	border: 1px solid black;
+	background-color:  #FFFF66;
+}
+
+.footerLinks a:link,
+.footerLinks a:visited {
+	color: black;
+}
+
+.footerLinksText {
+	margin-top: -10px;
+}
+
+.footerBoilerPlate {
+	font-size: 6pt;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: white;
+}
 
