@@ -24,6 +24,10 @@
 .footerLinks {
 	border: 1px solid black;
 	background-color:  #FFFF66;
+	margin-top: 0px;
+	margin-left: -1px;
+	margin-right: -1px;
+	margin-bottom: 0px;
 }
 
 .footerLinks a:link,
@@ -39,5 +43,6 @@
 	font-size: 6pt;
 	font-family: Verdana, Geneva, sans-serif;
 	background-color: white;
+	padding: 2px;
 }
 
